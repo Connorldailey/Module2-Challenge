@@ -58,6 +58,16 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  nav ul li {
+    padding: 10px;
+  }
   
   nav a {
     text-decoration: none;
@@ -278,4 +288,3 @@
   }
   
   /* TODO: add media query for a max-width of 768px */
-  
