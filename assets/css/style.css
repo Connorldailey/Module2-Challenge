@@ -200,6 +200,10 @@
   .flex-item h3 {
     font-size: 1.6rem;
   }
+
+  .flex-item p {
+    margin-bottom: 0px;
+  }
   
   .contact address {
     display: flex;
@@ -231,8 +235,8 @@
   
   /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
-  .run-buddy {
-    
+  .belize-solar {
+    background-image: url("../images/IdeaForSolar.jpeg");
   }
   
   .led-wall {
