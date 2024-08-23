@@ -190,6 +190,7 @@
   
   .flex-item:hover {
     background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
   }
   
   .flex-item div {
@@ -212,7 +213,7 @@
     align-items: center;
     height: 100%;
   }
-  
+
   .contact address a {
     color: var(--tertiary);
     padding: 5px;
@@ -234,25 +235,24 @@
   }
   
   /* portfolio project images */
-  /* TODO: Add portfolio project images here using background images*/
   .belize-solar {
     background-image: url("../images/IdeaForSolar.jpeg");
   }
   
-  .led-wall {
-    
+  .learning-game {
+    background-image: url("../images/learning-game.jpeg");
   }
   
-  .react-calc {
-    
+  .bootcamp-prework {
+    background-image: url("../images/bootcamp-full.jpg");
   }
   
-  .pastel-puzzles {
-    
+  .module1-challenge {
+    background-image: url("../images/module1.jpeg");
   }
   
-  .surf-report {
-    
+  .fake-project {
+    background-image: url("../images/random.jpeg");
   }
   
   /* media queries */
@@ -292,3 +292,15 @@
   }
   
   /* TODO: add media query for a max-width of 768px */
+  @media screen and (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .flex-item {
+        max-height: 150px;
+    }
+    .flex-item:first-child {
+        min-height: 150px;
+        flex-basis: 100%;
+    }
+  }
